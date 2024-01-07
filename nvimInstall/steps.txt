@@ -31,4 +31,6 @@ Para ripgrep: sudo apt install ripgrep
 
 8. Lazy git es unicamente para manejar git dentro de lazy (No necesario)
 
-9. Instalar el compilador de lenguaje C, C# o C++ si no se tiene, ejecutando el siguiente cmando: sudo apt install g++ 
+9. Instalar el compilador de lenguaje C, C# o C++ si no se tiene, ejecutando el siguiente cmando: sudo apt install g++
+
+10. Temas respectivos a plugins y demas - Guia: Https://www.youtube.com/watch?v=hzZRaiCyG9Y&t=716s 
