@@ -22,9 +22,13 @@ mv ~/.cache/nvim{,.bak}
 
 De lo contrario haga caso omiso
 
-7. Importante instalar el fd [find directory] y el ripgrep para el plugin integrado en lazy vim: "Telescope"
+6. Importante instalar el fd [find directory] y el ripgrep para el plugin integrado en lazy vim: "Telescope"
 
 Para fd: sudo apt install fd-find
 Para ripgrep: sudo apt install ripgrep
 
-8. Instalar el compilador de lenguaje C, C# o C++ si no se tiene, ejecutando el siguiente cmando: sudo apt install g++ 
+7. Instalar nerd font - tutorial: https://www.youtube.com/watch?v=cBOaYidGaCQ. Importante para los iconos
+
+8. Lazy git es unicamente para manejar git dentro de lazy (No necesario)
+
+9. Instalar el compilador de lenguaje C, C# o C++ si no se tiene, ejecutando el siguiente cmando: sudo apt install g++ 
