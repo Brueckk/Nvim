@@ -1,18 +1,18 @@
-PASOS PARA LA INSTALACION DE NEOVIM ACTUALIZADO Y LAZYVIM
+STEPS FOR INSTALLING UPDATED NEOVIM AND LAZYVIM
 
-recomendable eliminar nvim o vim junto con todos los packages si ya se encuentra instalado 
+recommended to remove nvim or vim along with all packages if already installed 
 
-1. https://github.com/neovim/neovim/releases/tag/stable ir a la seccion 'assets' y descargar el archivo nvim.appimage
+1. https://github.com/neovim/neovim/releases/tag/stable go to the 'assets' section and download the nvim.appimage file.
 
-2. Ubicarse en la carpeta donde se descargo nvim.appimage y ejecutar el siguiente comando: sudo apt-get install fuse
+2. Go to the folder where you downloaded nvim.appimage and execute the following command: sudo apt-get install fuse
 
-3. Ejecutar el siguiente comando: hmod u+x nvim.appimage && ./nvim.appimage
+3. Execute the following command: hmod u+x nvim.appimage && ./nvim.appimage
 
-4. Mover el archivo a /usr/local/bin/nvim con el siguiente comando: sudo mv nvim.appimage /usr/local/bin/nvim
+4. Move the file to /usr/local/bin/nvim with the following command: sudo mv nvim.appimage /usr/local/bin/nvim
 
-5. Clonar repositorio de Lazy vim: https://www.lazyvim.org/installation y seguir los pasos especificados ahi.
+5. Clone Lazy vim repository: https://www.lazyvim.org/installation and follow the steps specified there.
 
-En caso de tener configuracion propias de nvim, antes de instalar lazyvim, hacer caso al comando: # required
+In case you have your own nvim configuration, before installing lazyvim, follow the command: # required
 mv ~/.config/nvim{,.bak}
 
 # optional but recommended
@@ -20,17 +20,17 @@ mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 
-De lo contrario haga caso omiso
+Otherwise disregard
 
-6. Importante instalar el fd [find directory] y el ripgrep para el plugin integrado en lazy vim: "Telescope"
+6. Important to install fd [find directory] and ripgrep for the plugin integrated in lazy vim: "Telescope".
 
-Para fd: sudo apt install fd-find
-Para ripgrep: sudo apt install ripgrep
+For fd: sudo apt install fd-find
+For ripgrep: sudo apt install ripgrep
 
-7. Instalar nerd font - tutorial: https://www.youtube.com/watch?v=cBOaYidGaCQ. Importante para los iconos
+7. Install nerd font - tutorial: https://www.youtube.com/watch?v=cBOaYidGaCQ. Important for icons
 
-8. Lazy git es unicamente para manejar git dentro de lazy (No necesario)
+8. Lazy git is only for managing git inside lazy (not necessary).
 
-9. Instalar el compilador de lenguaje C, C# o C++ si no se tiene, ejecutando el siguiente cmando: sudo apt install g++
+9. Install C, C# or C++ language compiler if you don't have it, by executing the following command: sudo apt install g++
 
-10. Temas respectivos a plugins y demas - Guia: Https://www.youtube.com/watch?v=hzZRaiCyG9Y&t=716s 
+10. Issues related to plugins and others - Guide: https://www.youtube.com/watch?v=hzZRaiCyG9Y&t=716s
